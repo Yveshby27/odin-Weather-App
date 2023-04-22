@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div id="input-section">
+      <label for="location">Location</label>
+      <input type="text" id="location" name="location" />
+      <button id="submit">Submit</button>
+      <div id="loading">Loading...</div>
+    </div>
+    <div id="weather-section">
+      <div id="weather">
+        <div id="region"></div>
+        <div id="country"></div>
+        <div id="time"></div>
+        <div id="tempinF"></div>
+        <div id="tempinC"></div>
+        <div id="condition"></div>
+      </div>
+      <img id="weather-gif" />
+    </div>
+    <div id="error"></div>
+  </body>
+</html>
